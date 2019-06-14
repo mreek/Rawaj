@@ -207,7 +207,7 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
+//
     public void fl(String s) {
         // sending data to frag2 when an item is clicked
         FragmentManager manager1=getSupportFragmentManager();
