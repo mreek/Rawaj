@@ -5,5 +5,83 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".view.activity.Main2Activity">
+<ScrollView
+    android:id="@+id/login_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login"
+    android:layout_weight="1">
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/email_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+
+            android:id="@+id/login_here"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1" />
+
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="40dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_user"
+            android:layout_height="30dp" />
+
+<EditText
+    android:id="@+id/edit_email"
+    android:textSize="16sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:hint="Email or user"
+
+    />
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+    android:layout_width="40dp"
+    android:scaleType="center"
+    android:src="@drawable/ic_security_black_24dp"
+    android:layout_height="30dp" />
+
+
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_password"
+            android:hint="password"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            />
+
+
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login"
+       />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
 
 </android.support.constraint.ConstraintLayout>
