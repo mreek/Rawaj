@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragments.SellFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar">
+
+
+            </android.support.v7.widget.Toolbar>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="40dp"
+                android:text="category :"
+                android:textAlignment="center"
+                android:layout_marginLeft="30dp"
+
+
+
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cat"
+                android:layout_centerVertical="true"
+
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="-26dp"
+                android:layout_toEndOf="@+id/cat"
+                android:layout_toRightOf="@+id/cat"
+                android:paddingTop="0dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/ville"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cat"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dp"
+                android:text="Ville :"
+                android:textAlignment="center"
+                android:layout_marginLeft="30dp"
+
+
+
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ville"
+                android:layout_centerVertical="true"
+
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="-26dp"
+                android:layout_toEndOf="@+id/ville"
+                android:layout_toRightOf="@+id/ville"
+                android:paddingTop="0dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/quartier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ville"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dp"
+                android:text="Quartier :"
+                android:textAlignment="center"
+                android:layout_marginLeft="30dp"
+
+
+
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/quartier"
+                android:layout_centerVertical="true"
+
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="-26dp"
+                android:layout_toEndOf="@+id/ville"
+                android:layout_toRightOf="@+id/ville"
+                android:paddingTop="0dp"
+                android:textAlignment="center" />
+
+
+
+            <Button
+                android:background="@drawable/btnshape"
+                android:id="@+id/pickimage"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_below="@+id/quartier"
+                android:text="Pick Image"
+                android:layout_margin="20dp"
+                />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_below="@+id/pickimage"
+                android:id="@+id/imageview"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                />
+
+
+
+            <Button
+                android:id="@+id/button_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="49dp"
+                android:layout_below="@+id/imageview"
+                android:background="@drawable/btnshapered"
+
+                android:text="annuler" />
+
+
+            <Button
+                android:id="@+id/signup_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/button_close"
+                android:background="@drawable/btnshape"
+                android:text="@string/postad"
+                android:layout_margin="20dp"
+                />
+
+            <EditText
+                android:layout_centerInParent="true"
+
+                android:gravity="center"
+                android:textColorHighlight="@color/colorPrimary"
+                android:hint="@string/description_annance"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/signup_btn" />
+
+            <!--
+             android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+
+            -->
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
