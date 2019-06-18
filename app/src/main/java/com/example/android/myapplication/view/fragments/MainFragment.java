@@ -35,6 +35,8 @@ public class MainFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View v=inflater.inflate(R.layout.main_fragment, container, false);
+
+
         lv =v.findViewById(R.id.list1);
         al =new ArrayList<String>();
         aa =new ArrayAdapter<String>(getActivity(),android.R.layout.simple_list_item_activated_1,al);
