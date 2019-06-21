@@ -48,6 +48,9 @@ public class MainActivity extends AppCompatActivity
     private TextView appBarTV;
 
 
+    //R
+    private String URLstring = "http://www.json-generator.com/api/json/get/bUHZAmDgvC?indent=2";
+
     private String mDrawableName;
     private String[] mNavigationDrawerItemTitles;
     private DrawerLayout mDrawerLayout;
@@ -237,10 +240,11 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 //
-    /*
+
     // TODO: send data mn fragment lttani
 
     public void fl(String s) {
+        //FaseLunar
         // sending data to frag2 when an item is clicked
         FragmentManager manager1=getSupportFragmentManager();
         android.support.v4.app.FragmentTransaction t1=manager1.beginTransaction();
@@ -253,7 +257,7 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-     */
+
 
     public ArrayList<FaseLunar> getFaseLunarItems() {
         mFaseLunar = new ArrayList<FaseLunar>();

@@ -5,8 +5,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.example.android.myapplication.R;
 import com.example.android.myapplication.newmodels.FaseLunar;
@@ -15,6 +17,8 @@ import com.example.android.myapplication.adapter.FasesLunaresAdapter;
 import java.util.ArrayList;
 
 public class MainFragment extends Fragment {
+
+
 
     ListView lv;
     ArrayList<String> al;
@@ -81,18 +85,23 @@ public class MainFragment extends Fragment {
         al.add("fourth ad");
         al.add("fifth ad");
         al.add("sixth ad");
-
-        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+  */
+        mLista.setOnItemClickListener(new AdapterView.OnItemClickListener(){
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getActivity(), "open second fragment",
+                        Toast.LENGTH_LONG).show();
+
+                /*
                 String s=al.get(position);
                 MainActivity mn1 =(MainActivity) getActivity();
                 mn1.fl(s);
 
+*/
             }
         });
 
-          */
+
         return mFragment;
     }
 

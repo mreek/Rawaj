@@ -14,9 +14,7 @@ import com.example.android.myapplication.newmodels.FaseLunar;
 import com.example.android.myapplication.newmodels.FaseLunar;
 import java.util.ArrayList;
 
-/**
- * Created by Sacha on 04/10/2017.
- */
+
 
 public class FasesLunaresAdapter extends BaseAdapter {
 
