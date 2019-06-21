@@ -15,7 +15,7 @@ public class Photo {
 
     private int id_photo;
     private String chemin;
-    private Annonce annonce;
+    private Annonceold annonceold;
     public Photo(){
 
     }
@@ -24,7 +24,7 @@ public class Photo {
         super();
         this.id_photo = id_photo;
         this.chemin = chemin;
-        setAnnonce(new Annonce());
+        setAnnonceold(new Annonceold());
     }
 
     public int getId_photo() {
@@ -35,8 +35,8 @@ public class Photo {
         return chemin;
     }
 
-    public Annonce getAnnonce() {
-        return annonce;
+    public Annonceold getAnnonceold() {
+        return annonceold;
     }
 
     public void setId_photo(int id_photo) {
@@ -47,13 +47,13 @@ public class Photo {
         this.chemin = chemin;
     }
 
-    public void setAnnonce(Annonce annonce) {
-        this.annonce = annonce;
+    public void setAnnonceold(Annonceold annonceold) {
+        this.annonceold = annonceold;
     }
 
     @Override
     public String toString() {
-        return "Photo{" + "id_photo=" + id_photo + ", chemin=" + chemin + ", annonce=" + annonce + '}';
+        return "Photo{" + "id_photo=" + id_photo + ", chemin=" + chemin + ", annonceold=" + annonceold + '}';
     }
 
 

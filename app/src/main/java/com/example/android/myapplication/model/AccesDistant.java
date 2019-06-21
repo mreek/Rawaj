@@ -6,6 +6,10 @@ import com.example.android.myapplication.utils.AccesHTTP;
 import com.example.android.myapplication.utils.AsyncResponse;
 
 import org.json.JSONArray;
+public class AccesDistant{
+
+/*
+
 
 public class AccesDistant implements AsyncResponse {
 
@@ -43,4 +47,6 @@ public class AccesDistant implements AsyncResponse {
         accesDonnes.addParam("lesdonnes", lesDonnesJSON.toString());
         accesDonnes.execute(SERVERADDR);
     }
+}
+*/
 }

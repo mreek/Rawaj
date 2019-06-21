@@ -17,7 +17,7 @@ import java.util.List;
  *
  * @author khadija bennouna
  */
-public class Annonce {
+public class Annonceold {
     private int id_annonce;
     private sous_Categorie souscategorie;
     private Quartier quartier;
@@ -31,11 +31,11 @@ public class Annonce {
     private Compte compte;
     private String etat;
 
-    public Annonce(){
+    public Annonceold(){
 
     }
 
-    public Annonce(int id_annonce, int id_souscategorie, int  id_quartier, String titre_annonce, String description, double prix, String photo_principale, Date date, Time heure, int vues, int id_compte, String etat) {
+    public Annonceold(int id_annonce, int id_souscategorie, int  id_quartier, String titre_annonce, String description, double prix, String photo_principale, Date date, Time heure, int vues, int id_compte, String etat) {
         super();
         this.id_annonce = id_annonce;
         setSouscategorie(new sous_Categorie());
@@ -149,7 +149,7 @@ public class Annonce {
 
     @Override
     public String toString() {
-        return "Annonce{" + "id_annonce=" + id_annonce + ", souscategorie=" + souscategorie + ", quartier=" + quartier + ", titre_annonce=" + titre_annonce + ", description=" + description + ", prix=" + prix + ", photo_principale=" + photo_principale + ", date=" + date + ", heure=" + heure + ", vues=" + vues + ", compte=" + compte + ", etat=" + etat + '}';
+        return "Annonceold{" + "id_annonce=" + id_annonce + ", souscategorie=" + souscategorie + ", quartier=" + quartier + ", titre_annonce=" + titre_annonce + ", description=" + description + ", prix=" + prix + ", photo_principale=" + photo_principale + ", date=" + date + ", heure=" + heure + ", vues=" + vues + ", compte=" + compte + ", etat=" + etat + '}';
     }
 
     public JSONArray convertToJSONArray(){

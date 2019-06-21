@@ -27,23 +27,23 @@ public class AccesLocal
     }
 
     /**
-     * ajout d'une annonce dans la base de donnee pour lafficher au favoris
+     * ajout d'une annonceold dans la base de donnee pour lafficher au favoris
      *
-     * @param annonce
+     * @param annonceold
      * @param compte
      * @param sous_categorie
      * @param categorie
      */
-    public void ajout(Annonce annonce,Compte compte,sous_Categorie sous_categorie,Categorie categorie){
+    public void ajout(Annonceold annonceold, Compte compte, sous_Categorie sous_categorie, Categorie categorie){
 
     bd = accesBD.getWritableDatabase();
 
         String req = "Insert into favoris(id_annonce) values";
-        req += "(" +annonce.getId_annonce()+ ",";
+        req += "(" + annonceold.getId_annonce()+ ",";
 /*
 
         String req = "Insert into favoris(id_annonce,id_compte,id_souscategorie,id_categorie) values";
-            req += "(" +annonce.getId_annonce()+ "," +compte.getId_compte()+ "," +sous_categorie.getId_souscategorie()+ "," +categorie.getId_categorie()+  ",";
+            req += "(" +annonceold.getId_annonce()+ "," +compte.getId_compte()+ "," +sous_categorie.getId_souscategorie()+ "," +categorie.getId_categorie()+  ",";
 */
 
             // if we add date its gonna be a String , and we need to add "" but within the string not in the request
@@ -54,9 +54,9 @@ public class AccesLocal
     }
 
 
-  public  Annonce recup(){
+  public Annonceold recup(){
       bd = accesBD.getReadableDatabase();
-      Annonce annonce = null;
+      Annonceold annonceold = null;
       String req = "select * from annonce";
       Cursor cursor = bd.rawQuery(req,null);
 
@@ -71,7 +71,7 @@ public class AccesLocal
           //Integer id_categorie = cursor.getInt(3  );
 
 
-            //annonce = new Annonce(id_annonce);
+            //annonceold = new Annonceold(id_annonce);
 
 
 
@@ -79,10 +79,10 @@ public class AccesLocal
 
 
       }
-      //  annonce =new Annonce(id_annonce);
+      //  annonceold =new Annonceold(id_annonce);
       // now that we're done lets just close the cursor
         cursor.close();
-        return annonce;
+        return annonceold;
   }
 
 

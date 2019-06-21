@@ -5,13 +5,13 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.example.android.myapplication.R;
+import com.example.android.myapplication.newmodels.FaseLunar;
 import com.example.android.myapplication.view.activity.MainActivity;
-
+import com.example.android.myapplication.adapter.FasesLunaresAdapter;
 import java.util.ArrayList;
 
 public class MainFragment extends Fragment {
@@ -19,6 +19,11 @@ public class MainFragment extends Fragment {
     ListView lv;
     ArrayList<String> al;
     ArrayAdapter<String> aa;
+
+
+    private ArrayList<FaseLunar> mList;
+    private MainActivity mActivity;
+
 
     public static MainFragment newInstance() {
         MainFragment fragment = new MainFragment();
@@ -28,16 +33,25 @@ public class MainFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mActivity = (MainActivity) getActivity();
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View v=inflater.inflate(R.layout.main_fragment, container, false);
+        View mFragment =inflater.inflate(R.layout.main_fragment, container, false);
+
+    //    View mFragment = inflater.inflate(R.layout.main_fragment, null);
+        ListView mLista = (ListView) mFragment.findViewById(R.id.listView1);
+        mLista.setAdapter(getFasesLunaresAdapter());
 
 
-        lv =v.findViewById(R.id.list1);
+        // lv = mFragment.findViewById(R.id.listView1);
+
+        /*
+
+
         al =new ArrayList<String>();
         aa =new ArrayAdapter<String>(getActivity(),android.R.layout.simple_list_item_activated_1,al);
         lv.setAdapter(aa);
@@ -77,6 +91,19 @@ public class MainFragment extends Fragment {
 
             }
         });
-        return v;
+
+          */
+        return mFragment;
+    }
+
+
+    private FasesLunaresAdapter getFasesLunaresAdapter() {
+
+        mList = getFaseLunarItems();
+        return new FasesLunaresAdapter(mList, getActivity(), FasesLunaresAdapter.ADAPTER_MODE_LISTVIEW);
+    }
+
+    private ArrayList<FaseLunar> getFaseLunarItems() {
+        return mActivity.getFaseLunarItems();
     }
 }

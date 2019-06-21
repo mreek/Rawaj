@@ -47,7 +47,7 @@
     <string name="Contact">Contactez-nous</string>
     <string name="ads">Annonces</string>
 
-    <string name="postad">Déposer L\'annonce</string>
+    <string name="postad">Déposer L\'annonceold</string>
     <string name="description_annance">Description D\'annonce</string>
 
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
