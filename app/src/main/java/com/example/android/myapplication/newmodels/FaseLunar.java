@@ -14,9 +14,11 @@ public class FaseLunar {
     private String heure;
     private String date;
     private String state;
+    private String description;
 
 
-    public FaseLunar(int imgRes, String n, String altN, String desc, String vil, String houre, String dat, String etat){
+
+    public FaseLunar(int imgRes, String n, String altN,String desc, String vil, String houre, String dat, String etat,String descr){
         recursoImagen = imgRes;
         nombre = n;
         nombreAlternativo = altN;
@@ -25,6 +27,7 @@ public class FaseLunar {
         heure = houre;
         date = dat;
         state = etat;
+        description =  descr;
 
     }
 
@@ -58,5 +61,9 @@ public class FaseLunar {
 
     public String getState() {
         return state;
+    }
+
+    public String getDescription(){
+        return description;
     }
 }

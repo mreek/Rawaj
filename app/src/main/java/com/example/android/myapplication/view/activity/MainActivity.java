@@ -51,6 +51,14 @@ public class MainActivity extends AppCompatActivity
     //R
     private String URLstring = "http://www.json-generator.com/api/json/get/bUHZAmDgvC?indent=2";
 
+// need to connect to api and fetch these and do the parsing instead of loading the shit from a local json file
+
+    // http://192.168.1.118/api/annonce/read.php
+    //  http://localip/api/ville/read.php
+    //  http://localIP/api/quartier/read.php
+
+
+
     private String mDrawableName;
     private String[] mNavigationDrawerItemTitles;
     private DrawerLayout mDrawerLayout;
@@ -66,6 +74,7 @@ public class MainActivity extends AppCompatActivity
     private String heure;
     private String date;
     private String state;
+    private String description;
 
 
     private static final String TAG = "MyActivity";
@@ -287,7 +296,8 @@ public class MainActivity extends AppCompatActivity
                 date = object.getString("date");
                 heure = object.getString("heure");
                 state = object.getString("etat");
-                FaseLunar FL = new FaseLunar(resID,mFase,mAlias,mDescription,ville,date,heure,state);
+                description = object.getString("description");
+                FaseLunar FL = new FaseLunar(resID,mFase,mAlias,mDescription,ville,date,heure,state,description);
                 mFaseLunar.add(FL);
             }
         } catch(JSONException e){

@@ -1,0 +1,2068 @@
+{
+  "records": [
+    {
+      "id_ville": "1",
+      "nom_ville": "Afourar",
+      "idR": "5",
+      "population": "21375"
+    },
+    {
+      "id_ville": "2",
+      "nom_ville": "Agadir",
+      "idR": "9",
+      "population": "421844"
+    },
+    {
+      "id_ville": "3",
+      "nom_ville": "Agdz",
+      "idR": "8",
+      "population": "10681"
+    },
+    {
+      "id_ville": "4",
+      "nom_ville": "Aghbala",
+      "idR": "5",
+      "population": "12781"
+    },
+    {
+      "id_ville": "5",
+      "nom_ville": "Aghbalou",
+      "idR": "8",
+      "population": "9547"
+    },
+    {
+      "id_ville": "6",
+      "nom_ville": "Agouraï",
+      "idR": "3",
+      "population": "16651"
+    },
+    {
+      "id_ville": "7",
+      "nom_ville": "Aguelmous",
+      "idR": "5",
+      "population": "35626"
+    },
+    {
+      "id_ville": "8",
+      "nom_ville": "Ahfir",
+      "idR": "2",
+      "population": "20811"
+    },
+    {
+      "id_ville": "9",
+      "nom_ville": "Aïn Bni Mathar",
+      "idR": "2",
+      "population": "16289"
+    },
+    {
+      "id_ville": "10",
+      "nom_ville": "Ain Cheggag",
+      "idR": "3",
+      "population": "20456"
+    },
+    {
+      "id_ville": "11",
+      "nom_ville": "Aïn Dorij",
+      "idR": "1",
+      "population": "3394"
+    },
+    {
+      "id_ville": "12",
+      "nom_ville": "Aïn El Aouda",
+      "idR": "4",
+      "population": "49816"
+    },
+    {
+      "id_ville": "13",
+      "nom_ville": "Aïn Erreggada",
+      "idR": "2",
+      "population": "2983"
+    },
+    {
+      "id_ville": "14",
+      "nom_ville": "Aïn Harrouda",
+      "idR": "6",
+      "population": "62420"
+    },
+    {
+      "id_ville": "15",
+      "nom_ville": "Aïn Jemaa",
+      "idR": "3",
+      "population": "15265"
+    },
+    {
+      "id_ville": "16",
+      "nom_ville": "Aïn Karma",
+      "idR": "3",
+      "population": "13828"
+    },
+    {
+      "id_ville": "17",
+      "nom_ville": "Aïn Leuh",
+      "idR": "3",
+      "population": "9669"
+    },
+    {
+      "id_ville": "18",
+      "nom_ville": "Aïn Taoujdate",
+      "idR": "3",
+      "population": "28288"
+    },
+    {
+      "id_ville": "19",
+      "nom_ville": "Aït Baha",
+      "idR": "9",
+      "population": "5668"
+    },
+    {
+      "id_ville": "20",
+      "nom_ville": "Aït Boubidmane ",
+      "idR": "3",
+      "population": "19501"
+    },
+    {
+      "id_ville": "21",
+      "nom_ville": "Aït Daoud",
+      "idR": "3",
+      "population": "2957"
+    },
+    {
+      "id_ville": "22",
+      "nom_ville": "Aït Iaaza",
+      "idR": "9",
+      "population": "14259"
+    },
+    {
+      "id_ville": "23",
+      "nom_ville": "Aït Ishaq",
+      "idR": "3",
+      "population": "19133"
+    },
+    {
+      "id_ville": "24",
+      "nom_ville": "Aït Melloul",
+      "idR": "9",
+      "population": "171847"
+    },
+    {
+      "id_ville": "25",
+      "nom_ville": "Aït Ourir",
+      "idR": "7",
+      "population": "39108"
+    },
+    {
+      "id_ville": "26",
+      "nom_ville": "Ajdir (province d'Al Hoceïma)",
+      "idR": "1",
+      "population": "5314"
+    },
+    {
+      "id_ville": "27",
+      "nom_ville": "Ajdir (province de Taza)",
+      "idR": "3",
+      "population": "0"
+    },
+    {
+      "id_ville": "28",
+      "nom_ville": "Akka",
+      "idR": "9",
+      "population": "6870"
+    },
+    {
+      "id_ville": "29",
+      "nom_ville": "Aklim",
+      "idR": "2",
+      "population": "8969"
+    },
+    {
+      "id_ville": "30",
+      "nom_ville": "Aknoul",
+      "idR": "3",
+      "population": "4403"
+    },
+    {
+      "id_ville": "31",
+      "nom_ville": "Al Aaroui",
+      "idR": "2",
+      "population": "47599"
+    },
+    {
+      "id_ville": "32",
+      "nom_ville": "Al Hoceïma",
+      "idR": "1",
+      "population": "56716"
+    },
+    {
+      "id_ville": "33",
+      "nom_ville": "Alnif",
+      "idR": "8",
+      "population": "22724"
+    },
+    {
+      "id_ville": "34",
+      "nom_ville": "Amalou Ighriben",
+      "idR": "5",
+      "population": "3256"
+    },
+    {
+      "id_ville": "35",
+      "nom_ville": "Amizmiz",
+      "idR": "7",
+      "population": "14364"
+    },
+    {
+      "id_ville": "36",
+      "nom_ville": "Aoufous",
+      "idR": "8",
+      "population": "10424"
+    },
+    {
+      "id_ville": "37",
+      "nom_ville": "Aoulouz",
+      "idR": "9",
+      "population": "17409"
+    },
+    {
+      "id_ville": "38",
+      "nom_ville": "Aourir",
+      "idR": "9",
+      "population": "36948"
+    },
+    {
+      "id_ville": "39",
+      "nom_ville": "Arbaoua",
+      "idR": "4",
+      "population": "32690"
+    },
+    {
+      "id_ville": "40",
+      "nom_ville": "Arfoud",
+      "idR": "8",
+      "population": "29279"
+    },
+    {
+      "id_ville": "41",
+      "nom_ville": "Assa",
+      "idR": "10",
+      "population": "14570"
+    },
+    {
+      "id_ville": "42",
+      "nom_ville": "Assahrij",
+      "idR": "7",
+      "population": "15385"
+    },
+    {
+      "id_ville": "43",
+      "nom_ville": "Assilah",
+      "idR": "1",
+      "population": "31147"
+    },
+    {
+      "id_ville": "44",
+      "nom_ville": "Azemmour",
+      "idR": "6",
+      "population": "40920"
+    },
+    {
+      "id_ville": "45",
+      "nom_ville": "Azilal",
+      "idR": "5",
+      "population": "38520"
+    },
+    {
+      "id_ville": "46",
+      "nom_ville": "Azrou",
+      "idR": "3",
+      "population": "54350"
+    },
+    {
+      "id_ville": "47",
+      "nom_ville": "Bab Berred",
+      "idR": "1",
+      "population": "25872"
+    },
+    {
+      "id_ville": "48",
+      "nom_ville": "Bab Taza",
+      "idR": "1",
+      "population": "28713"
+    },
+    {
+      "id_ville": "49",
+      "nom_ville": "Bejaad",
+      "idR": "5",
+      "population": "46893"
+    },
+    {
+      "id_ville": "50",
+      "nom_ville": "Ben Ahmed",
+      "idR": "6",
+      "population": "33105"
+    },
+    {
+      "id_ville": "51",
+      "nom_ville": "Ben Guerir",
+      "idR": "7",
+      "population": "88626"
+    },
+    {
+      "id_ville": "52",
+      "nom_ville": "Ben Slimane",
+      "idR": "6",
+      "population": "19977"
+    },
+    {
+      "id_ville": "53",
+      "nom_ville": "Ben Taïeb",
+      "idR": "2",
+      "population": "14257"
+    },
+    {
+      "id_ville": "54",
+      "nom_ville": "Ben Yakhlef",
+      "idR": "6",
+      "population": "48338"
+    },
+    {
+      "id_ville": "55",
+      "nom_ville": "Béni Mellal",
+      "idR": "5",
+      "population": "192676"
+    },
+    {
+      "id_ville": "56",
+      "nom_ville": "Berkane",
+      "idR": "2",
+      "population": "109237"
+    },
+    {
+      "id_ville": "57",
+      "nom_ville": "Berrechid",
+      "idR": "6",
+      "population": "136634"
+    },
+    {
+      "id_ville": "58",
+      "nom_ville": "Bhalil",
+      "idR": "3",
+      "population": "12997"
+    },
+    {
+      "id_ville": "59",
+      "nom_ville": "Biougra",
+      "idR": "9",
+      "population": "37933"
+    },
+    {
+      "id_ville": "60",
+      "nom_ville": "Bni Ansar",
+      "idR": "2",
+      "population": "56582"
+    },
+    {
+      "id_ville": "61",
+      "nom_ville": "Bni Bouayach",
+      "idR": "1",
+      "population": "18271"
+    },
+    {
+      "id_ville": "62",
+      "nom_ville": "Bni Chiker",
+      "idR": "2",
+      "population": "26884"
+    },
+    {
+      "id_ville": "63",
+      "nom_ville": "Bni Drar",
+      "idR": "2",
+      "population": "10934"
+    },
+    {
+      "id_ville": "64",
+      "nom_ville": "Bni Hadifa",
+      "idR": "1",
+      "population": "5594"
+    },
+    {
+      "id_ville": "65",
+      "nom_ville": "Bni Tadjite",
+      "idR": "2",
+      "population": "16149"
+    },
+    {
+      "id_ville": "66",
+      "nom_ville": "Bouanane",
+      "idR": "2",
+      "population": "10035"
+    },
+    {
+      "id_ville": "67",
+      "nom_ville": "Bouarfa",
+      "idR": "2",
+      "population": "28846"
+    },
+    {
+      "id_ville": "68",
+      "nom_ville": "Boudnib",
+      "idR": "8",
+      "population": "11373"
+    },
+    {
+      "id_ville": "69",
+      "nom_ville": "Bouguedra",
+      "idR": "7",
+      "population": "16014"
+    },
+    {
+      "id_ville": "70",
+      "nom_ville": "Bouhdila",
+      "idR": "2",
+      "population": "16145"
+    },
+    {
+      "id_ville": "71",
+      "nom_ville": "Bouizakarne",
+      "idR": "10",
+      "population": "14228"
+    },
+    {
+      "id_ville": "72",
+      "nom_ville": "Boujdour",
+      "idR": "11",
+      "population": "42651"
+    },
+    {
+      "id_ville": "73",
+      "nom_ville": "Boujniba",
+      "idR": "5",
+      "population": "16030"
+    },
+    {
+      "id_ville": "74",
+      "nom_ville": "Boulanouare",
+      "idR": "5",
+      "population": "16041"
+    },
+    {
+      "id_ville": "75",
+      "nom_ville": "Boulemane",
+      "idR": "3",
+      "population": "7104"
+    },
+    {
+      "id_ville": "76",
+      "nom_ville": "Boumia",
+      "idR": "8",
+      "population": "18212"
+    },
+    {
+      "id_ville": "77",
+      "nom_ville": "Bouskoura",
+      "idR": "6",
+      "population": "103026"
+    },
+    {
+      "id_ville": "78",
+      "nom_ville": "Bouznika",
+      "idR": "6",
+      "population": "37238"
+    },
+    {
+      "id_ville": "79",
+      "nom_ville": "Bradia",
+      "idR": "5",
+      "population": "40685"
+    },
+    {
+      "id_ville": "80",
+      "nom_ville": "Brikcha",
+      "idR": "1",
+      "population": "10399"
+    },
+    {
+      "id_ville": "81",
+      "nom_ville": "Bzou",
+      "idR": "5",
+      "population": "14072"
+    },
+    {
+      "id_ville": "82",
+      "nom_ville": "Casablanca",
+      "idR": "6",
+      "population": "3359818"
+    },
+    {
+      "id_ville": "83",
+      "nom_ville": "Chefchaouen",
+      "idR": "1",
+      "population": "42786"
+    },
+    {
+      "id_ville": "84",
+      "nom_ville": "Chichaoua",
+      "idR": "7",
+      "population": "27869"
+    },
+    {
+      "id_ville": "85",
+      "nom_ville": "Dakhla",
+      "idR": "12",
+      "population": "106277"
+    },
+    {
+      "id_ville": "86",
+      "nom_ville": "Dar Bni Karrich",
+      "idR": "1",
+      "population": "8499"
+    },
+    {
+      "id_ville": "87",
+      "nom_ville": "Dar Chaoui",
+      "idR": "1",
+      "population": "4303"
+    },
+    {
+      "id_ville": "88",
+      "nom_ville": "Dar El Kebdani",
+      "idR": "2",
+      "population": "9911"
+    },
+    {
+      "id_ville": "89",
+      "nom_ville": "Dar Gueddari",
+      "idR": "4",
+      "population": "6643"
+    },
+    {
+      "id_ville": "90",
+      "nom_ville": "Dar Oulad Zidouh",
+      "idR": "5",
+      "population": "31170"
+    },
+    {
+      "id_ville": "91",
+      "nom_ville": "Dcheïra El Jihadia",
+      "idR": "9",
+      "population": "100336"
+    },
+    {
+      "id_ville": "92",
+      "nom_ville": "Debdou",
+      "idR": "2",
+      "population": "4960"
+    },
+    {
+      "id_ville": "93",
+      "nom_ville": "Demnate",
+      "idR": "5",
+      "population": "29504"
+    },
+    {
+      "id_ville": "94",
+      "nom_ville": "Deroua",
+      "idR": "6",
+      "population": "47719"
+    },
+    {
+      "id_ville": "95",
+      "nom_ville": "Drargua",
+      "idR": "9",
+      "population": "70793"
+    },
+    {
+      "id_ville": "96",
+      "nom_ville": "Driouch",
+      "idR": "2",
+      "population": "14741"
+    },
+    {
+      "id_ville": "97",
+      "nom_ville": "Echemmaia",
+      "idR": "7",
+      "population": "24303"
+    },
+    {
+      "id_ville": "98",
+      "nom_ville": "El Aïoun Sidi Mellouk",
+      "idR": "2",
+      "population": "41832"
+    },
+    {
+      "id_ville": "99",
+      "nom_ville": "El Borouj",
+      "idR": "6",
+      "population": "19235"
+    },
+    {
+      "id_ville": "100",
+      "nom_ville": "El Gara",
+      "idR": "6",
+      "population": "20855"
+    },
+    {
+      "id_ville": "101",
+      "nom_ville": "El Guerdane",
+      "idR": "9",
+      "population": "12313"
+    },
+    {
+      "id_ville": "102",
+      "nom_ville": "El Hajeb",
+      "idR": "3",
+      "population": "35282"
+    },
+    {
+      "id_ville": "103",
+      "nom_ville": "El Hanchane",
+      "idR": "7",
+      "population": "4965"
+    },
+    {
+      "id_ville": "104",
+      "nom_ville": "El Jadida",
+      "idR": "6",
+      "population": "194934"
+    },
+    {
+      "id_ville": "105",
+      "nom_ville": "El Kbab",
+      "idR": "5",
+      "population": "16157"
+    },
+    {
+      "id_ville": "106",
+      "nom_ville": "El Kelaa des Sraghna",
+      "idR": "7",
+      "population": "95224"
+    },
+    {
+      "id_ville": "107",
+      "nom_ville": "El Ksiba",
+      "idR": "5",
+      "population": "20001"
+    },
+    {
+      "id_ville": "108",
+      "nom_ville": "El Mansouria",
+      "idR": "6",
+      "population": "19853"
+    },
+    {
+      "id_ville": "109",
+      "nom_ville": "El Marsa",
+      "idR": "11",
+      "population": "17917"
+    },
+    {
+      "id_ville": "110",
+      "nom_ville": "El Menzel",
+      "idR": "3",
+      "population": "12641"
+    },
+    {
+      "id_ville": "111",
+      "nom_ville": "El Ouatia",
+      "idR": "10",
+      "population": "9295"
+    },
+    {
+      "id_ville": "112",
+      "nom_ville": "Errachidia",
+      "idR": "8",
+      "population": "92374"
+    },
+    {
+      "id_ville": "113",
+      "nom_ville": "Er-Rich",
+      "idR": "8",
+      "population": "25992"
+    },
+    {
+      "id_ville": "114",
+      "nom_ville": "Essaouira",
+      "idR": "7",
+      "population": "77966"
+    },
+    {
+      "id_ville": "115",
+      "nom_ville": "Es-Semara",
+      "idR": "11",
+      "population": "57035"
+    },
+    {
+      "id_ville": "116",
+      "nom_ville": "Fam El Hisn",
+      "idR": "9",
+      "population": "6353"
+    },
+    {
+      "id_ville": "117",
+      "nom_ville": "Farkhana",
+      "idR": "2",
+      "population": "10994"
+    },
+    {
+      "id_ville": "118",
+      "nom_ville": "Fès ",
+      "idR": "3",
+      "population": "1150131"
+    },
+    {
+      "id_ville": "119",
+      "nom_ville": "Figuig",
+      "idR": "2",
+      "population": "10872"
+    },
+    {
+      "id_ville": "120",
+      "nom_ville": "Fnideq",
+      "idR": "1",
+      "population": "77249"
+    },
+    {
+      "id_ville": "121",
+      "nom_ville": "Foum Jamaa",
+      "idR": "5",
+      "population": "0"
+    },
+    {
+      "id_ville": "122",
+      "nom_ville": "Foum Zguid",
+      "idR": "9",
+      "population": "8986"
+    },
+    {
+      "id_ville": "123",
+      "nom_ville": "Fquih Ben Salah",
+      "idR": "5",
+      "population": "102019"
+    },
+    {
+      "id_ville": "124",
+      "nom_ville": "Ghafsaï",
+      "idR": "3",
+      "population": "6361"
+    },
+    {
+      "id_ville": "125",
+      "nom_ville": "Ghmate",
+      "idR": "7",
+      "population": "25220"
+    },
+    {
+      "id_ville": "126",
+      "nom_ville": "Goulmima",
+      "idR": "8",
+      "population": "16419"
+    },
+    {
+      "id_ville": "127",
+      "nom_ville": "Gourrama",
+      "idR": "8",
+      "population": "14927"
+    },
+    {
+      "id_ville": "128",
+      "nom_ville": "Guelmim",
+      "idR": "10",
+      "population": "118318"
+    },
+    {
+      "id_ville": "129",
+      "nom_ville": "Guercif",
+      "idR": "2",
+      "population": "90880"
+    },
+    {
+      "id_ville": "130",
+      "nom_ville": "Gueznaïa",
+      "idR": "1",
+      "population": "23601"
+    },
+    {
+      "id_ville": "131",
+      "nom_ville": "Guigou",
+      "idR": "3",
+      "population": "21607"
+    },
+    {
+      "id_ville": "132",
+      "nom_ville": "Guisser",
+      "idR": "6",
+      "population": "12289"
+    },
+    {
+      "id_ville": "133",
+      "nom_ville": "Had Bouhssoussen",
+      "idR": "5",
+      "population": "7368"
+    },
+    {
+      "id_ville": "134",
+      "nom_ville": "Had Kourt",
+      "idR": "4",
+      "population": "7843"
+    },
+    {
+      "id_ville": "135",
+      "nom_ville": "Had Oued Ifrane",
+      "idR": "3",
+      "population": "10805"
+    },
+    {
+      "id_ville": "136",
+      "nom_ville": "Haj Kaddour",
+      "idR": "3",
+      "population": "6508"
+    },
+    {
+      "id_ville": "137",
+      "nom_ville": "Hattane",
+      "idR": "5",
+      "population": "10618"
+    },
+    {
+      "id_ville": "138",
+      "nom_ville": "Ifrane",
+      "idR": "3",
+      "population": "73782"
+    },
+    {
+      "id_ville": "139",
+      "nom_ville": "Ifrane Atlas Saghir",
+      "idR": "10",
+      "population": "11205"
+    },
+    {
+      "id_ville": "140",
+      "nom_ville": "Ighoud",
+      "idR": "7",
+      "population": "22870"
+    },
+    {
+      "id_ville": "141",
+      "nom_ville": "Ihddaden",
+      "idR": "2",
+      "population": "0"
+    },
+    {
+      "id_ville": "142",
+      "nom_ville": "Imintanoute",
+      "idR": "7",
+      "population": "20837"
+    },
+    {
+      "id_ville": "143",
+      "nom_ville": "Imouzzer Kandar",
+      "idR": "3",
+      "population": "19125"
+    },
+    {
+      "id_ville": "144",
+      "nom_ville": "Imouzzer Marmoucha",
+      "idR": "3",
+      "population": "4213"
+    },
+    {
+      "id_ville": "145",
+      "nom_ville": "Imzouren",
+      "idR": "1",
+      "population": "33852"
+    },
+    {
+      "id_ville": "146",
+      "nom_ville": "Inezgane",
+      "idR": "9",
+      "population": "130333"
+    },
+    {
+      "id_ville": "147",
+      "nom_ville": "Irherm",
+      "idR": "9",
+      "population": "4108"
+    },
+    {
+      "id_ville": "148",
+      "nom_ville": "Issaguen",
+      "idR": "1",
+      "population": "17095"
+    },
+    {
+      "id_ville": "149",
+      "nom_ville": "Itzer",
+      "idR": "8",
+      "population": "10613"
+    },
+    {
+      "id_ville": "150",
+      "nom_ville": "Jaadar",
+      "idR": "2",
+      "population": "0"
+    },
+    {
+      "id_ville": "151",
+      "nom_ville": "Jamaat Shaim",
+      "idR": "7",
+      "population": "11251"
+    },
+    {
+      "id_ville": "152",
+      "nom_ville": "Jebha",
+      "idR": "1",
+      "population": "3757"
+    },
+    {
+      "id_ville": "153",
+      "nom_ville": "Jerada",
+      "idR": "2",
+      "population": "43506"
+    },
+    {
+      "id_ville": "154",
+      "nom_ville": "Jorf",
+      "idR": "8",
+      "population": "12302"
+    },
+    {
+      "id_ville": "155",
+      "nom_ville": "Jorf El Melha",
+      "idR": "4",
+      "population": "28681"
+    },
+    {
+      "id_ville": "156",
+      "nom_ville": "Kalaat M'Gouna",
+      "idR": "8",
+      "population": "16956"
+    },
+    {
+      "id_ville": "157",
+      "nom_ville": "Karia (province de Tétouan)",
+      "idR": "1",
+      "population": "1091"
+    },
+    {
+      "id_ville": "158",
+      "nom_ville": "Karia (province d'El Jadida)",
+      "idR": "6",
+      "population": "0"
+    },
+    {
+      "id_ville": "159",
+      "nom_ville": "Karia Ba Mohamed",
+      "idR": "3",
+      "population": "18762"
+    },
+    {
+      "id_ville": "160",
+      "nom_ville": "Kariat Arekmane",
+      "idR": "1",
+      "population": "5329"
+    },
+    {
+      "id_ville": "161",
+      "nom_ville": "Kasba Tadla",
+      "idR": "5",
+      "population": "47343"
+    },
+    {
+      "id_ville": "162",
+      "nom_ville": "Kassita",
+      "idR": "2",
+      "population": "2675"
+    },
+    {
+      "id_ville": "163",
+      "nom_ville": "Kattara",
+      "idR": "7",
+      "population": "0"
+    },
+    {
+      "id_ville": "164",
+      "nom_ville": "Kehf Nsour",
+      "idR": "5",
+      "population": "0"
+    },
+    {
+      "id_ville": "165",
+      "nom_ville": "Kénitra",
+      "idR": "4",
+      "population": "431282"
+    },
+    {
+      "id_ville": "166",
+      "nom_ville": "Kerouna",
+      "idR": "2",
+      "population": "0"
+    },
+    {
+      "id_ville": "167",
+      "nom_ville": "Kerrouchen",
+      "idR": "5",
+      "population": "7021"
+    },
+    {
+      "id_ville": "168",
+      "nom_ville": "Khémis Sahel",
+      "idR": "1",
+      "population": "6242"
+    },
+    {
+      "id_ville": "169",
+      "nom_ville": "Khémisset",
+      "idR": "4",
+      "population": "131542"
+    },
+    {
+      "id_ville": "170",
+      "nom_ville": "Khénichet",
+      "idR": "4",
+      "population": "0"
+    },
+    {
+      "id_ville": "171",
+      "nom_ville": "Khénifra",
+      "idR": "5",
+      "population": "117510"
+    },
+    {
+      "id_ville": "172",
+      "nom_ville": "Khouribga",
+      "idR": "5",
+      "population": "196196"
+    },
+    {
+      "id_ville": "173",
+      "nom_ville": "Ksar El Kébir",
+      "idR": "1",
+      "population": "126617"
+    },
+    {
+      "id_ville": "174",
+      "nom_ville": "Laakarta",
+      "idR": "7",
+      "population": "4369"
+    },
+    {
+      "id_ville": "175",
+      "nom_ville": "Laâounate",
+      "idR": "6",
+      "population": "17850"
+    },
+    {
+      "id_ville": "176",
+      "nom_ville": "Laattaouia",
+      "idR": "7",
+      "population": "30315"
+    },
+    {
+      "id_ville": "177",
+      "nom_ville": "Laayoune",
+      "idR": "11",
+      "population": "217732"
+    },
+    {
+      "id_ville": "178",
+      "nom_ville": "Lagouira",
+      "idR": "12",
+      "population": "3826"
+    },
+    {
+      "id_ville": "179",
+      "nom_ville": "Lahraouyine",
+      "idR": "6",
+      "population": "64821"
+    },
+    {
+      "id_ville": "180",
+      "nom_ville": "Lakhsas",
+      "idR": "10",
+      "population": "4729"
+    },
+    {
+      "id_ville": "181",
+      "nom_ville": "Lalla Mimouna",
+      "idR": "4",
+      "population": "29479"
+    },
+    {
+      "id_ville": "182",
+      "nom_ville": "Lalla Takarkoust",
+      "idR": "7",
+      "population": "7311"
+    },
+    {
+      "id_ville": "183",
+      "nom_ville": "Larache",
+      "idR": "1",
+      "population": "125008"
+    },
+    {
+      "id_ville": "184",
+      "nom_ville": "Lbir Jdid",
+      "idR": "6",
+      "population": "24136"
+    },
+    {
+      "id_ville": "185",
+      "nom_ville": "Loualidia",
+      "idR": "6",
+      "population": "18616"
+    },
+    {
+      "id_ville": "186",
+      "nom_ville": "Loulad",
+      "idR": "6",
+      "population": "6057"
+    },
+    {
+      "id_ville": "187",
+      "nom_ville": "Lqliaa",
+      "idR": "9",
+      "population": "83235"
+    },
+    {
+      "id_ville": "188",
+      "nom_ville": "Maaziz",
+      "idR": "4",
+      "population": "11502"
+    },
+    {
+      "id_ville": "189",
+      "nom_ville": "Madagh",
+      "idR": "2",
+      "population": "14486"
+    },
+    {
+      "id_ville": "190",
+      "nom_ville": "Marrakech",
+      "idR": "7",
+      "population": "928850"
+    },
+    {
+      "id_ville": "191",
+      "nom_ville": "Martil",
+      "idR": "1",
+      "population": "64355"
+    },
+    {
+      "id_ville": "192",
+      "nom_ville": "Massa",
+      "idR": "9",
+      "population": "17579"
+    },
+    {
+      "id_ville": "193",
+      "nom_ville": "Matmata",
+      "idR": "3",
+      "population": "11928"
+    },
+    {
+      "id_ville": "194",
+      "nom_ville": "M'Diq",
+      "idR": "1",
+      "population": "56227"
+    },
+    {
+      "id_ville": "195",
+      "nom_ville": "Mechraa Bel Ksiri",
+      "idR": "4",
+      "population": "31497"
+    },
+    {
+      "id_ville": "196",
+      "nom_ville": "Médiouna",
+      "idR": "6",
+      "population": "22442"
+    },
+    {
+      "id_ville": "197",
+      "nom_ville": "Mehdya",
+      "idR": "4",
+      "population": "28636"
+    },
+    {
+      "id_ville": "198",
+      "nom_ville": "Meknès",
+      "idR": "3",
+      "population": "520428"
+    },
+    {
+      "id_ville": "199",
+      "nom_ville": "M'Haya",
+      "idR": "3",
+      "population": "26395"
+    },
+    {
+      "id_ville": "200",
+      "nom_ville": "Midar",
+      "idR": "2",
+      "population": "15021"
+    },
+    {
+      "id_ville": "201",
+      "nom_ville": "Midelt",
+      "idR": "8",
+      "population": "55304"
+    },
+    {
+      "id_ville": "202",
+      "nom_ville": "Missour",
+      "idR": "3",
+      "population": "25584"
+    },
+    {
+      "id_ville": "203",
+      "nom_ville": "Mohammédia",
+      "idR": "6",
+      "population": "208612"
+    },
+    {
+      "id_ville": "204",
+      "nom_ville": "Moqrisset",
+      "idR": "1",
+      "population": "10545"
+    },
+    {
+      "id_ville": "205",
+      "nom_ville": "Moulay Abdallah",
+      "idR": "6",
+      "population": "12456"
+    },
+    {
+      "id_ville": "206",
+      "nom_ville": "Moulay Ali Chérif (Rissani) ",
+      "idR": "8",
+      "population": "22209"
+    },
+    {
+      "id_ville": "207",
+      "nom_ville": "Moulay Bouazza",
+      "idR": "5",
+      "population": "8490"
+    },
+    {
+      "id_ville": "208",
+      "nom_ville": "Moulay Bousselham",
+      "idR": "4",
+      "population": "26608"
+    },
+    {
+      "id_ville": "209",
+      "nom_ville": "Moulay Brahim",
+      "idR": "7",
+      "population": "11813"
+    },
+    {
+      "id_ville": "210",
+      "nom_ville": "Moulay Driss Zerhoun",
+      "idR": "3",
+      "population": "11615"
+    },
+    {
+      "id_ville": "211",
+      "nom_ville": "M'Rirt",
+      "idR": "5",
+      "population": "42730"
+    },
+    {
+      "id_ville": "212",
+      "nom_ville": "Nador",
+      "idR": "2",
+      "population": "161726"
+    },
+    {
+      "id_ville": "213",
+      "nom_ville": "Naïma",
+      "idR": "2",
+      "population": "1088"
+    },
+    {
+      "id_ville": "214",
+      "nom_ville": "Nouaceur",
+      "idR": "6",
+      "population": "23802"
+    },
+    {
+      "id_ville": "215",
+      "nom_ville": "Ouaouizeght",
+      "idR": "5",
+      "population": "14570"
+    },
+    {
+      "id_ville": "216",
+      "nom_ville": "Ouarzazate",
+      "idR": "8",
+      "population": "71067"
+    },
+    {
+      "id_ville": "217",
+      "nom_ville": "Oued Amlil",
+      "idR": "3",
+      "population": "10405"
+    },
+    {
+      "id_ville": "218",
+      "nom_ville": "Oued El Heïmer",
+      "idR": "2",
+      "population": "1282"
+    },
+    {
+      "id_ville": "219",
+      "nom_ville": "Oued Laou",
+      "idR": "1",
+      "population": "9665"
+    },
+    {
+      "id_ville": "220",
+      "nom_ville": "Oued Zem",
+      "idR": "5",
+      "population": "95267"
+    },
+    {
+      "id_ville": "221",
+      "nom_ville": "Ouezzane",
+      "idR": "1",
+      "population": "59606"
+    },
+    {
+      "id_ville": "222",
+      "nom_ville": "Ouislane",
+      "idR": "3",
+      "population": "87910"
+    },
+    {
+      "id_ville": "223",
+      "nom_ville": "Oujda",
+      "idR": "2",
+      "population": "494252"
+    },
+    {
+      "id_ville": "224",
+      "nom_ville": "Oulad Abbou",
+      "idR": "6",
+      "population": "11299"
+    },
+    {
+      "id_ville": "225",
+      "nom_ville": "Oulad Amrane",
+      "idR": "6",
+      "population": "12252"
+    },
+    {
+      "id_ville": "226",
+      "nom_ville": "Oulad Ayad",
+      "idR": "5",
+      "population": "23818"
+    },
+    {
+      "id_ville": "227",
+      "nom_ville": "Oulad Berhil",
+      "idR": "9",
+      "population": "24288"
+    },
+    {
+      "id_ville": "228",
+      "nom_ville": "Oulad Frej",
+      "idR": "6",
+      "population": "19752"
+    },
+    {
+      "id_ville": "229",
+      "nom_ville": "Oulad Ghadbane",
+      "idR": "6",
+      "population": "6152"
+    },
+    {
+      "id_ville": "230",
+      "nom_ville": "Oulad H'Riz Sahel",
+      "idR": "6",
+      "population": "38156"
+    },
+    {
+      "id_ville": "231",
+      "nom_ville": "Oulad M'Barek",
+      "idR": "5",
+      "population": "19774"
+    },
+    {
+      "id_ville": "232",
+      "nom_ville": "Oulad M'Rah",
+      "idR": "6",
+      "population": "8697"
+    },
+    {
+      "id_ville": "233",
+      "nom_ville": "Oulad Saïd",
+      "idR": "6",
+      "population": "9271"
+    },
+    {
+      "id_ville": "234",
+      "nom_ville": "Oulad Tayeb",
+      "idR": "3",
+      "population": "24594"
+    },
+    {
+      "id_ville": "235",
+      "nom_ville": "Oulad Teïma",
+      "idR": "9",
+      "population": "89387"
+    },
+    {
+      "id_ville": "236",
+      "nom_ville": "Oulad Yaïch",
+      "idR": "5",
+      "population": "27476"
+    },
+    {
+      "id_ville": "237",
+      "nom_ville": "Oulad Zbaïr",
+      "idR": "3",
+      "population": "17747"
+    },
+    {
+      "id_ville": "238",
+      "nom_ville": "Oulmès",
+      "idR": "4",
+      "population": "18786"
+    },
+    {
+      "id_ville": "239",
+      "nom_ville": "Ounagha",
+      "idR": "7",
+      "population": "12461"
+    },
+    {
+      "id_ville": "240",
+      "nom_ville": "Outat El Haj",
+      "idR": "3",
+      "population": "16388"
+    },
+    {
+      "id_ville": "241",
+      "nom_ville": "Rabat ",
+      "idR": "4",
+      "population": "577827"
+    },
+    {
+      "id_ville": "242",
+      "nom_ville": "Ras El Aïn",
+      "idR": "6",
+      "population": "19614"
+    },
+    {
+      "id_ville": "243",
+      "nom_ville": "Ras El Ma",
+      "idR": "2",
+      "population": "7580"
+    },
+    {
+      "id_ville": "244",
+      "nom_ville": "Ribate El Kheïr",
+      "idR": "3",
+      "population": "16739"
+    },
+    {
+      "id_ville": "245",
+      "nom_ville": "Rommani",
+      "idR": "4",
+      "population": "12297"
+    },
+    {
+      "id_ville": "246",
+      "nom_ville": "Sabaa Aiyoun",
+      "idR": "3",
+      "population": "26277"
+    },
+    {
+      "id_ville": "247",
+      "nom_ville": "Safi",
+      "idR": "7",
+      "population": "308508"
+    },
+    {
+      "id_ville": "248",
+      "nom_ville": "Saïdia",
+      "idR": "2",
+      "population": "8780"
+    },
+    {
+      "id_ville": "249",
+      "nom_ville": "Salé",
+      "idR": "4",
+      "population": "982163"
+    },
+    {
+      "id_ville": "250",
+      "nom_ville": "Sebt El Maarif",
+      "idR": "6",
+      "population": "1638"
+    },
+    {
+      "id_ville": "251",
+      "nom_ville": "Sebt Gzoula",
+      "idR": "7",
+      "population": "18543"
+    },
+    {
+      "id_ville": "252",
+      "nom_ville": "Sebt Jahjouh",
+      "idR": "3",
+      "population": "3750"
+    },
+    {
+      "id_ville": "253",
+      "nom_ville": "Sefrou",
+      "idR": "3",
+      "population": "79887"
+    },
+    {
+      "id_ville": "254",
+      "nom_ville": "Selouane",
+      "idR": "2",
+      "population": "21570"
+    },
+    {
+      "id_ville": "255",
+      "nom_ville": "Settat",
+      "idR": "6",
+      "population": "142250"
+    },
+    {
+      "id_ville": "256",
+      "nom_ville": "Sid L'Mokhtar",
+      "idR": "7",
+      "population": "22714"
+    },
+    {
+      "id_ville": "257",
+      "nom_ville": "Sid Zouine",
+      "idR": "7",
+      "population": "14954"
+    },
+    {
+      "id_ville": "258",
+      "nom_ville": "Sidi Abdallah Ghiat",
+      "idR": "7",
+      "population": "29498"
+    },
+    {
+      "id_ville": "259",
+      "nom_ville": "Sidi Addi",
+      "idR": "3",
+      "population": "4217"
+    },
+    {
+      "id_ville": "260",
+      "nom_ville": "Sidi Ahmed",
+      "idR": "2",
+      "population": "0"
+    },
+    {
+      "id_ville": "261",
+      "nom_ville": "Sidi Ali Ben Hamdouche",
+      "idR": "6",
+      "population": "35182"
+    },
+    {
+      "id_ville": "262",
+      "nom_ville": "Sidi Allal El Bahraoui",
+      "idR": "4",
+      "population": "15866"
+    },
+    {
+      "id_ville": "263",
+      "nom_ville": "Sidi Allal Tazi",
+      "idR": "4",
+      "population": "18055"
+    },
+    {
+      "id_ville": "264",
+      "nom_ville": "Sidi Bennour",
+      "idR": "6",
+      "population": "55815"
+    },
+    {
+      "id_ville": "265",
+      "nom_ville": "Sidi Bou Othmane",
+      "idR": "7",
+      "population": "9181"
+    },
+    {
+      "id_ville": "266",
+      "nom_ville": "Sidi Boubker",
+      "idR": "2",
+      "population": "6145"
+    },
+    {
+      "id_ville": "267",
+      "nom_ville": "Sidi Bouknadel",
+      "idR": "4",
+      "population": "25255"
+    },
+    {
+      "id_ville": "268",
+      "nom_ville": "Sidi Bouzid",
+      "idR": "6",
+      "population": "0"
+    },
+    {
+      "id_ville": "269",
+      "nom_ville": "Sidi Ifni",
+      "idR": "10",
+      "population": "21618"
+    },
+    {
+      "id_ville": "270",
+      "nom_ville": "Sidi Jaber",
+      "idR": "5",
+      "population": "20432"
+    },
+    {
+      "id_ville": "271",
+      "nom_ville": "Sidi Kacem",
+      "idR": "4",
+      "population": "75672"
+    },
+    {
+      "id_ville": "272",
+      "nom_ville": "Sidi Lyamani",
+      "idR": "1",
+      "population": "10365"
+    },
+    {
+      "id_ville": "273",
+      "nom_ville": "Sidi Rahhal",
+      "idR": "6",
+      "population": "9906"
+    },
+    {
+      "id_ville": "274",
+      "nom_ville": "Sidi Rahhal Chataï",
+      "idR": "6",
+      "population": "20628"
+    },
+    {
+      "id_ville": "275",
+      "nom_ville": "Sidi Slimane",
+      "idR": "4",
+      "population": "92989"
+    },
+    {
+      "id_ville": "276",
+      "nom_ville": "Sidi Slimane Echcharraa",
+      "idR": "2",
+      "population": "30202"
+    },
+    {
+      "id_ville": "277",
+      "nom_ville": "Sidi Smaïl",
+      "idR": "6",
+      "population": "28733"
+    },
+    {
+      "id_ville": "278",
+      "nom_ville": "Sidi Taïbi",
+      "idR": "4",
+      "population": "53449"
+    },
+    {
+      "id_ville": "279",
+      "nom_ville": "Sidi Yahya El Gharb",
+      "idR": "4",
+      "population": "37979"
+    },
+    {
+      "id_ville": "280",
+      "nom_ville": "Skhirate",
+      "idR": "4",
+      "population": "59775"
+    },
+    {
+      "id_ville": "281",
+      "nom_ville": "Skhour Rehamna",
+      "idR": "7",
+      "population": "15479"
+    },
+    {
+      "id_ville": "282",
+      "nom_ville": "Skoura",
+      "idR": "8",
+      "population": "0"
+    },
+    {
+      "id_ville": "283",
+      "nom_ville": "Smimou",
+      "idR": "7",
+      "population": "8026"
+    },
+    {
+      "id_ville": "284",
+      "nom_ville": " Had Soualem",
+      "idR": "6",
+      "population": "36765"
+    },
+    {
+      "id_ville": "285",
+      "nom_ville": "Souk El Arbaâ",
+      "idR": "4",
+      "population": "69265"
+    },
+    {
+      "id_ville": "286",
+      "nom_ville": "Souk Sebt Oulad Nemma",
+      "idR": "5",
+      "population": "60076"
+    },
+    {
+      "id_ville": "287",
+      "nom_ville": "Tabounte",
+      "idR": "8",
+      "population": "31072"
+    },
+    {
+      "id_ville": "288",
+      "nom_ville": "Tafetachte",
+      "idR": "7",
+      "population": "7293"
+    },
+    {
+      "id_ville": "289",
+      "nom_ville": "Tafraout",
+      "idR": "9",
+      "population": "6345"
+    },
+    {
+      "id_ville": "290",
+      "nom_ville": "Tafersit",
+      "idR": "2",
+      "population": "9133"
+    },
+    {
+      "id_ville": "291",
+      "nom_ville": "Taghjijt",
+      "idR": "10",
+      "population": "9988"
+    },
+    {
+      "id_ville": "292",
+      "nom_ville": "Tahannaout",
+      "idR": "7",
+      "population": "12102"
+    },
+    {
+      "id_ville": "293",
+      "nom_ville": "Tahla",
+      "idR": "3",
+      "population": "27729"
+    },
+    {
+      "id_ville": "294",
+      "nom_ville": "Taïnaste",
+      "idR": "3",
+      "population": "11530"
+    },
+    {
+      "id_ville": "295",
+      "nom_ville": "Taliouine",
+      "idR": "9",
+      "population": "6727"
+    },
+    {
+      "id_ville": "296",
+      "nom_ville": "Talmest",
+      "idR": "7",
+      "population": "4328"
+    },
+    {
+      "id_ville": "297",
+      "nom_ville": "Talsint",
+      "idR": "2",
+      "population": "16166"
+    },
+    {
+      "id_ville": "298",
+      "nom_ville": "Tamallalt",
+      "idR": "7",
+      "population": "16539"
+    },
+    {
+      "id_ville": "299",
+      "nom_ville": "Tamanar",
+      "idR": "7",
+      "population": "10584"
+    },
+    {
+      "id_ville": "300",
+      "nom_ville": "Tamassint",
+      "idR": "1",
+      "population": "1831"
+    },
+    {
+      "id_ville": "301",
+      "nom_ville": "Tameslohte",
+      "idR": "7",
+      "population": "28978"
+    },
+    {
+      "id_ville": "302",
+      "nom_ville": "Tanger",
+      "idR": "1",
+      "population": "947952"
+    },
+    {
+      "id_ville": "303",
+      "nom_ville": "Tan-Tan",
+      "idR": "10",
+      "population": "73209"
+    },
+    {
+      "id_ville": "304",
+      "nom_ville": "Taounate",
+      "idR": "3",
+      "population": "37616"
+    },
+    {
+      "id_ville": "305",
+      "nom_ville": "Taourirt",
+      "idR": "2",
+      "population": "103398"
+    },
+    {
+      "id_ville": "306",
+      "nom_ville": "Tarfaya",
+      "idR": "11",
+      "population": "8027"
+    },
+    {
+      "id_ville": "307",
+      "nom_ville": "Targuist",
+      "idR": "1",
+      "population": "13390"
+    },
+    {
+      "id_ville": "308",
+      "nom_ville": "Taroudant",
+      "idR": "9",
+      "population": "80149"
+    },
+    {
+      "id_ville": "309",
+      "nom_ville": "Tata",
+      "idR": "8",
+      "population": "18611"
+    },
+    {
+      "id_ville": "310",
+      "nom_ville": "Taza",
+      "idR": "3",
+      "population": "148456"
+    },
+    {
+      "id_ville": "311",
+      "nom_ville": "Taznakht",
+      "idR": "8",
+      "population": "7281"
+    },
+    {
+      "id_ville": "312",
+      "nom_ville": "Témara",
+      "idR": "4",
+      "population": "313510"
+    },
+    {
+      "id_ville": "313",
+      "nom_ville": "Temsia",
+      "idR": "9",
+      "population": "40780"
+    },
+    {
+      "id_ville": "314",
+      "nom_ville": "Tendrara",
+      "idR": "2",
+      "population": "15390"
+    },
+    {
+      "id_ville": "315",
+      "nom_ville": "Tétouan",
+      "idR": "1",
+      "population": "380787"
+    },
+    {
+      "id_ville": "316",
+      "nom_ville": "Thar Es Souk",
+      "idR": "1",
+      "population": "3792"
+    },
+    {
+      "id_ville": "317",
+      "nom_ville": "Tiddas",
+      "idR": "4",
+      "population": "10047"
+    },
+    {
+      "id_ville": "318",
+      "nom_ville": "Tiflet",
+      "idR": "4",
+      "population": "86709"
+    },
+    {
+      "id_ville": "319",
+      "nom_ville": "Tighassaline",
+      "idR": "5",
+      "population": "15204"
+    },
+    {
+      "id_ville": "320",
+      "nom_ville": "Tighza",
+      "idR": "5",
+      "population": "0"
+    },
+    {
+      "id_ville": "321",
+      "nom_ville": "Timahdite",
+      "idR": "3",
+      "population": "10945"
+    },
+    {
+      "id_ville": "322",
+      "nom_ville": "Tinejdad",
+      "idR": "8",
+      "population": "8942"
+    },
+    {
+      "id_ville": "323",
+      "nom_ville": "Tinghir",
+      "idR": "8",
+      "population": "42044"
+    },
+    {
+      "id_ville": "324",
+      "nom_ville": "Tissa",
+      "idR": "3",
+      "population": "11195"
+    },
+    {
+      "id_ville": "325",
+      "nom_ville": "Tit Mellil",
+      "idR": "6",
+      "population": "32782"
+    },
+    {
+      "id_ville": "326",
+      "nom_ville": "Tizi Ouasli",
+      "idR": "3",
+      "population": "6639"
+    },
+    {
+      "id_ville": "327",
+      "nom_ville": "Tiznit",
+      "idR": "9",
+      "population": "74699"
+    },
+    {
+      "id_ville": "328",
+      "nom_ville": "Tiztoutine",
+      "idR": "2",
+      "population": "9788"
+    },
+    {
+      "id_ville": "329",
+      "nom_ville": "Touima",
+      "idR": "2",
+      "population": "6909"
+    },
+    {
+      "id_ville": "330",
+      "nom_ville": "Touissit",
+      "idR": "2",
+      "population": "3137"
+    },
+    {
+      "id_ville": "331",
+      "nom_ville": "Toulal",
+      "idR": "3",
+      "population": "19077"
+    },
+    {
+      "id_ville": "332",
+      "nom_ville": "Tounfite",
+      "idR": "8",
+      "population": "13297"
+    },
+    {
+      "id_ville": "333",
+      "nom_ville": "Youssoufia",
+      "idR": "7",
+      "population": "67628"
+    },
+    {
+      "id_ville": "334",
+      "nom_ville": "Zag",
+      "idR": "10",
+      "population": "12763"
+    },
+    {
+      "id_ville": "335",
+      "nom_ville": "Zagora",
+      "idR": "8",
+      "population": "40067"
+    },
+    {
+      "id_ville": "336",
+      "nom_ville": "Zaïda",
+      "idR": "8",
+      "population": "13181"
+    },
+    {
+      "id_ville": "337",
+      "nom_ville": "Zaïo",
+      "idR": "2",
+      "population": "35806"
+    },
+    {
+      "id_ville": "338",
+      "nom_ville": "Zaouïat Bougrine",
+      "idR": "3",
+      "population": "4112"
+    },
+    {
+      "id_ville": "339",
+      "nom_ville": "Zaouïat Cheikh",
+      "idR": "5",
+      "population": "25388"
+    },
+    {
+      "id_ville": "340",
+      "nom_ville": "Zeghanghane",
+      "idR": "2",
+      "population": "34025"
+    },
+    {
+      "id_ville": "341",
+      "nom_ville": "Zemamra",
+      "idR": "6",
+      "population": "13279"
+    },
+    {
+      "id_ville": "342",
+      "nom_ville": "Zirara",
+      "idR": "4",
+      "population": "16606"
+    },
+    {
+      "id_ville": "343",
+      "nom_ville": "Zoumi",
+      "idR": "1",
+      "population": "40661"
+    },
+    {
+      "id_ville": "344",
+      "nom_ville": "Zrarda",
+      "idR": "3",
+      "population": "9249"
+    }
+  ]
+}

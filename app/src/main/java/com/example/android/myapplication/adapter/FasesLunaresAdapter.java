@@ -74,6 +74,7 @@ public class FasesLunaresAdapter extends BaseAdapter {
             holder.heure = (TextView)convertView.findViewById(R.id.bed);
             holder.date = (TextView)convertView.findViewById(R.id.bath);
             holder.state = (TextView)convertView.findViewById(R.id.square);
+            holder.description = (TextView)convertView.findViewById(R.id.description);
 
             convertView.setTag(holder);
         }
@@ -92,6 +93,7 @@ public class FasesLunaresAdapter extends BaseAdapter {
         holder.heure.setText(mFase.getHeure());
         holder.date.setText(mFase.getDate());
         holder.state.setText(mFase.getState());
+        holder.description.setText(mFase.getDescription());
         return convertView;
     }
 
@@ -105,6 +107,7 @@ public class FasesLunaresAdapter extends BaseAdapter {
         public TextView date;
         public TextView heure;
         public TextView state;
+        public TextView description;
 
     }
 }
