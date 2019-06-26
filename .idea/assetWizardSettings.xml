@@ -28,8 +28,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_share_black_24dp" />
-                            <entry key="sourceFile" value="C:\Users\Adam\Downloads\clock.svg" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_calendar" />
+                            <entry key="sourceFile" value="C:\Users\Adam\Downloads\calendar-with-a-clock-time-tools.svg" />
                           </map>
                         </option>
                       </PersistentState>
