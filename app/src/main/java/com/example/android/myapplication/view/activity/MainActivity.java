@@ -297,7 +297,7 @@ public class MainActivity extends AppCompatActivity
                 heure = object.getString("heure");
                 state = object.getString("etat");
                 description = object.getString("description");
-                FaseLunar FL = new FaseLunar(resID,mFase,mAlias,mDescription,ville,date,heure,state,description);
+                FaseLunar FL = new FaseLunar(resID,mDrawableName,mFase,mAlias,mDescription,ville,date,heure,state,description);
                 mFaseLunar.add(FL);
             }
         } catch(JSONException e){
