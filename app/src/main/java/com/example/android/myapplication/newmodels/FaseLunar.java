@@ -30,7 +30,19 @@ public class FaseLunar {
         date = dat;
         state = etat;
         description =  descr;
+    }
 
+    public FaseLunar(String imageURL, String n, String altN,String desc, String vil, String houre, String dat, String etat,String descr){
+        recursoImagen = 0;
+        this.imageURL = imageURL;
+        nombre = n;
+        nombreAlternativo = altN;
+        descripcion = desc;
+        ville = vil;
+        heure = houre;
+        date = dat;
+        state = etat;
+        description =  descr;
     }
 
     public int getImageResource() {
@@ -69,5 +81,21 @@ public class FaseLunar {
 
     public String getDescription(){
         return description;
+    }
+
+    @Override
+    public String toString() {
+        return "FaseLunar{" +
+                "recursoImagen=" + recursoImagen +
+                ", imageURL='" + imageURL + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", nombreAlternativo='" + nombreAlternativo + '\'' +
+                ", descripcion='" + descripcion + '\'' +
+                ", ville='" + ville + '\'' +
+                ", heure='" + heure + '\'' +
+                ", date='" + date + '\'' +
+                ", state='" + state + '\'' +
+                ", description='" + description + '\'' +
+                '}';
     }
 }

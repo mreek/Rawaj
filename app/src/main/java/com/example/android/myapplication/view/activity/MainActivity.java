@@ -1,7 +1,9 @@
 package com.example.android.myapplication.view.activity;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.res.AssetManager;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -10,6 +12,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -36,8 +39,13 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 
 
@@ -58,7 +66,6 @@ public class MainActivity extends AppCompatActivity
     //  http://localIP/api/quartier/read.php
 
 
-
     private String mDrawableName;
     private String[] mNavigationDrawerItemTitles;
     private DrawerLayout mDrawerLayout;
@@ -76,8 +83,11 @@ public class MainActivity extends AppCompatActivity
     private String state;
     private String description;
 
+    private MainFragment mainFragment;
+
 
     private static final String TAG = "MyActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -92,7 +102,7 @@ public class MainActivity extends AppCompatActivity
 */
 
         // launch the introActivity
-        Intent intent= new Intent(this,IntroActivity.class);
+        Intent intent = new Intent(this, IntroActivity.class);
         startActivity(intent);
 
 
@@ -126,7 +136,7 @@ public class MainActivity extends AppCompatActivity
                         switch (item.getItemId()) {
                             case R.id.action_item1:
                                 selectedFragment = MainFragment.newInstance();
-                               // Log.v(TAG, "lwl" );
+                                // Log.v(TAG, "lwl" );
                                 break;
                             case R.id.action_item2:
                                 selectedFragment = DetailsFragment.newInstance();
@@ -156,7 +166,8 @@ public class MainActivity extends AppCompatActivity
 
         //Manually displaying the first fragment - one time only
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.f_container, MainFragment.newInstance());
+        mainFragment = MainFragment.newInstance();
+        transaction.replace(R.id.f_container, mainFragment);
         transaction.commit();
 
         //Used to select an item programmatically
@@ -206,7 +217,7 @@ public class MainActivity extends AppCompatActivity
 
 
         if (id == R.id.nav_camera) {
-           // appBarTV.setText("Main Page");
+            // appBarTV.setText("Main Page");
             MainFragment fragment = new MainFragment();
             ft.replace(R.id.f_container, fragment);
             ft.commit();
@@ -226,7 +237,7 @@ public class MainActivity extends AppCompatActivity
             ft.commit();
         } else if (id == R.id.nav_manage) {
             //appBarTV.setText("Tools Page");
-           // Toast.makeText(this, "Contactez_nous Activity", Toast.LENGTH_SHORT).show();
+            // Toast.makeText(this, "Contactez_nous Activity", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_share) {
             //appBarTV.setText("Share Page");
@@ -235,14 +246,14 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_send) {
             //appBarTV.setText("Send");
             Toast.makeText(this, "Rate 5 stars", Toast.LENGTH_SHORT).show();
-        }  else if (id == R.id.nav_login) {
+        } else if (id == R.id.nav_login) {
             //appBarTV.setText("Fragment With Tabs");
             AccountFragment fragment = new AccountFragment();
             ft.replace(R.id.f_container, fragment);
             ft.commit();
         }
 
-    //nav_login
+        //nav_login
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
@@ -255,17 +266,16 @@ public class MainActivity extends AppCompatActivity
     public void fl(String s) {
         //FaseLunar
         // sending data to frag2 when an item is clicked
-        FragmentManager manager1=getSupportFragmentManager();
-        android.support.v4.app.FragmentTransaction t1=manager1.beginTransaction();
-        Myfrag2 m22=new Myfrag2();
-        Bundle b2=new Bundle();
-        b2.putString("s",s);
+        FragmentManager manager1 = getSupportFragmentManager();
+        android.support.v4.app.FragmentTransaction t1 = manager1.beginTransaction();
+        Myfrag2 m22 = new Myfrag2();
+        Bundle b2 = new Bundle();
+        b2.putString("s", s);
         m22.setArguments(b2);
-        t1.replace(R.id.f_container,m22);
+        t1.replace(R.id.f_container, m22);
         t1.addToBackStack(null).commit();  //added back stack in the transaction from mainfragment to frag2
 
     }
-
 
 
     public ArrayList<FaseLunar> getFaseLunarItems() {
@@ -284,11 +294,12 @@ public class MainActivity extends AppCompatActivity
         //Method with JSON
         try {
             JSONObject data = new JSONObject(loadJSONFromAsset());
+//            JSONObject data = new JSONObject(loadJSONFromAPI());
             JSONArray faselunar = data.getJSONArray("records");
             for (int i = 0; i < faselunar.length(); i++) {
                 JSONObject object = faselunar.getJSONObject(i);
                 mDrawableName = object.getString("photo_principale");
-                resID = getResources().getIdentifier(mDrawableName,"drawable",getPackageName());
+                resID = getResources().getIdentifier(mDrawableName, "drawable", getPackageName());
                 mDescription = object.getString("description");
                 mAlias = object.getString("prix");
                 mFase = object.getString("titre_annonce");
@@ -297,28 +308,34 @@ public class MainActivity extends AppCompatActivity
                 heure = object.getString("heure");
                 state = object.getString("etat");
                 description = object.getString("description");
-                FaseLunar FL = new FaseLunar(resID,mDrawableName,mFase,mAlias,mDescription,ville,date,heure,state,description);
+                FaseLunar FL = new FaseLunar(resID, mDrawableName, mFase, mAlias, mDescription, ville, date, heure, state, description);
                 mFaseLunar.add(FL);
             }
-        } catch(JSONException e){
+        } catch (JSONException e) {
             e.printStackTrace();
         }
         return mFaseLunar;
     }//getFaseLunarItems
 
+    private String loadJSONFromAPI() {
+
+        return "";
+
+    }
+
     //JSON Handler Best Practice
-    private String loadJSONFromAsset(){
+    private String loadJSONFromAsset() {
         String json = null;
         AssetManager assetManager = getAssets();
-        try{
+        try {
             InputStream IS = assetManager.open("Annances.json");
             int size = IS.available();
             byte[] buffer = new byte[size];
             IS.read(buffer);
             IS.close();
-            json = new String(buffer,"UTF-8");
+            json = new String(buffer, "UTF-8");
 
-        } catch (IOException ex){
+        } catch (IOException ex) {
             ex.printStackTrace();
             return null;
         }
