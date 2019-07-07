@@ -287,6 +287,7 @@ public class MainActivity extends AppCompatActivity
             JSONArray faselunar = data.getJSONArray("records");
             for (int i = 0; i < faselunar.length(); i++) {
                 JSONObject object = faselunar.getJSONObject(i);
+                int id = object.getInt("id_annonce");
                 mDrawableName = object.getString("photo_principale");
                 resID = getResources().getIdentifier(mDrawableName,"drawable",getPackageName());
                 mDescription = object.getString("description");
@@ -297,7 +298,7 @@ public class MainActivity extends AppCompatActivity
                 heure = object.getString("heure");
                 state = object.getString("etat");
                 description = object.getString("description");
-                FaseLunar FL = new FaseLunar(resID,mDrawableName,mFase,mAlias,mDescription,ville,date,heure,state,description);
+                FaseLunar FL = new FaseLunar(id, resID,mDrawableName,mFase,mAlias,mDescription,ville,date,heure,state,description);
                 mFaseLunar.add(FL);
             }
         } catch(JSONException e){

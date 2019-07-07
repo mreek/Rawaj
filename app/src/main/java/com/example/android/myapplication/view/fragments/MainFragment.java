@@ -1,7 +1,9 @@
 package com.example.android.myapplication.view.fragments;
 
+import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +16,22 @@ import com.example.android.myapplication.R;
 import com.example.android.myapplication.newmodels.FaseLunar;
 import com.example.android.myapplication.view.activity.MainActivity;
 import com.example.android.myapplication.adapter.FasesLunaresAdapter;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.LineNumberReader;
+import java.io.PrintWriter;
+import java.io.Reader;
+import java.io.Writer;
 import java.util.ArrayList;
 
 public class MainFragment extends Fragment {
@@ -87,10 +105,49 @@ public class MainFragment extends Fragment {
         al.add("sixth ad");
   */
         mLista.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+
+            // TO-DO : write and read to/from file in phone and not asset
+
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getActivity(), "open second fragment",
+                Toast.makeText(getActivity(), "Added to favorites " + id,
                         Toast.LENGTH_LONG).show();
+
+
+                try{
+                    JSONArray favorites;
+                    Log.d("FAVORITE", "FilesDir : " + getContext().getFilesDir().getAbsolutePath());
+                    File file = new File(getContext().getFilesDir(), "favorites.json");
+
+                    if(file.exists()){
+                        LineNumberReader r = new LineNumberReader(new FileReader(file));
+                        String result = "";
+                        while(r.ready()){
+                            result += r.readLine();
+                        }
+                        r.close();
+                        favorites = new JSONArray(result);
+                    } else {
+                        file.createNewFile();
+                        favorites = new JSONArray();
+                    }
+
+
+                    Log.d("FAVORITE", "Adding " + id + "to : " + favorites);
+                    favorites.put(id);
+
+                    Log.d("FAVORITES", "onItemClick: " + favorites.toString());
+
+                    Writer output = null;
+                    output = new BufferedWriter(new FileWriter(file));
+                    output.write(favorites.toString());
+                    output.close();
+
+                } catch (JSONException e) {
+                    Log.d("Favorites exception", "JSON exception");
+                } catch (IOException e) {
+                    Log.d("Favorites exception", "IOException");
+                }
 
                 /*
                 String s=al.get(position);

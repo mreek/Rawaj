@@ -53,7 +53,7 @@ public class FasesLunaresAdapter extends BaseAdapter {
 
     @Override
     public long getItemId(int position) {
-        return 0;
+        return ((FaseLunar)(getItem(position))).getId();
     }
 
     @Override

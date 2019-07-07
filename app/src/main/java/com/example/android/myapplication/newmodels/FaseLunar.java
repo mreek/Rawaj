@@ -6,6 +6,7 @@ package com.example.android.myapplication.newmodels;
 
 public class FaseLunar {
 
+    private int id;
     private int recursoImagen;
     private String imageURL;
     private String nombre;
@@ -17,7 +18,20 @@ public class FaseLunar {
     private String state;
     private String description;
 
+    public FaseLunar(int id, int imgRes, String imageURL, String n, String altN,String desc, String vil, String houre, String dat, String etat,String descr){
+        this.id = id;
+        recursoImagen = imgRes;
+        this.imageURL = imageURL;
+        nombre = n;
+        nombreAlternativo = altN;
+        descripcion = desc;
+        ville = vil;
+        heure = houre;
+        date = dat;
+        state = etat;
+        description =  descr;
 
+    }
 
     public FaseLunar(int imgRes, String imageURL, String n, String altN,String desc, String vil, String houre, String dat, String etat,String descr){
         recursoImagen = imgRes;
@@ -32,6 +46,8 @@ public class FaseLunar {
         description =  descr;
 
     }
+
+    public int getId() {return id;}
 
     public int getImageResource() {
         return recursoImagen;
