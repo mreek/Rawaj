@@ -10,6 +10,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -218,6 +219,8 @@ public class MainActivity extends AppCompatActivity
             ft.commit();
 
         } else if (id == R.id.nav_slideshow) {
+            //Favoris
+
             //appBarTV.setText("Slideshow Page");
             //DetailsFragment
             //Toast.makeText(this, "Slideshow", Toast.LENGTH_SHORT).show();

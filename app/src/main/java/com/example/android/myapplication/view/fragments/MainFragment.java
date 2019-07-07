@@ -106,7 +106,7 @@ public class MainFragment extends Fragment {
   */
         mLista.setOnItemClickListener(new AdapterView.OnItemClickListener(){
 
-            // TO-DO : write and read to/from file in phone and not asset
+            // TO-DO : show favorites page and display favorites by loading ids and searching in annonces' list
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -149,12 +149,11 @@ public class MainFragment extends Fragment {
                     Log.d("Favorites exception", "IOException");
                 }
 
-                /*
-                String s=al.get(position);
-                MainActivity mn1 =(MainActivity) getActivity();
-                mn1.fl(s);
 
-*/
+//                String s=al.get(position);
+//                MainActivity mn1 =(MainActivity) getActivity();
+//                mn1.fl(s);
+
             }
         });
 
