@@ -110,7 +110,7 @@ public class MainFragment extends Fragment {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getActivity(), "Added to favorites " + id,
+                Toast.makeText(getActivity(), "Added to favorites, ID : " + id,
                         Toast.LENGTH_LONG).show();
 
 
