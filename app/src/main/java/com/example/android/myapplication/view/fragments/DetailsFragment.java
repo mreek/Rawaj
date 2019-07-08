@@ -117,7 +117,7 @@ public class DetailsFragment extends Fragment {
     private FasesLunaresAdapter getFasesLunaresAdapter() {
 
         mList = getFaseLunarFavoritesItems();
-        return new FasesLunaresAdapter(mList, getActivity(), FasesLunaresAdapter.ADAPTER_MODE_LISTVIEW);
+        return new FasesLunaresAdapter(mList, getActivity(), FasesLunaresAdapter.ADAPTER_MODE_LISTVIEW, true);
     }
 
     private ArrayList<FaseLunar> getFaseLunarFavoritesItems() {

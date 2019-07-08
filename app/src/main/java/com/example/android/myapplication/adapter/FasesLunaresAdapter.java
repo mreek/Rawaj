@@ -30,6 +30,7 @@ public class FasesLunaresAdapter extends BaseAdapter {
     private ArrayList<FaseLunar> items;
     private Context mContext;
     private LayoutInflater mInflater;
+    private boolean fav = false;
 
     private int adapterMode = ADAPTER_MODE_LISTVIEW; //valor por defecto
 
@@ -39,6 +40,15 @@ public class FasesLunaresAdapter extends BaseAdapter {
         mContext = ctx;
         mInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         adapterMode = mode;
+    }
+
+    public FasesLunaresAdapter(ArrayList<FaseLunar> mList, Context ctx, int mode, boolean fav)
+    {
+        items = mList;
+        mContext = ctx;
+        mInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        adapterMode = mode;
+        this.fav = fav;
     }
 
     @Override
@@ -83,6 +93,9 @@ public class FasesLunaresAdapter extends BaseAdapter {
             holder.description = (TextView)convertView.findViewById(R.id.description);
 
             convertView.setTag(holder);
+
+            if(fav == true) ((ImageView)convertView.findViewById(R.id.favourite)).setImageDrawable(mContext.getDrawable(R.drawable.ic_love_red));
+
         }
         //En cambio si convertView no es null, sabemos que viene un objeto ViewHolder con referencias a
         //sus vistas hijas relevantes
